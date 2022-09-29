@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AFC18AA28E58A810082075E /* CustomViewBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC18A928E58A810082075E /* CustomViewBarApp.swift */; };
+		2AFC18AC28E58A810082075E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC18AB28E58A810082075E /* ContentView.swift */; };
+		2AFC18AE28E58A830082075E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFC18AD28E58A830082075E /* Assets.xcassets */; };
+		2AFC18B128E58A830082075E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFC18B028E58A830082075E /* Preview Assets.xcassets */; };
+		2AFC18BB28E58A840082075E /* CustomViewBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC18BA28E58A840082075E /* CustomViewBarTests.swift */; };
+		2AFC18C528E58A840082075E /* CustomViewBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC18C428E58A840082075E /* CustomViewBarUITests.swift */; };
+		2AFC18C728E58A840082075E /* CustomViewBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC18C628E58A840082075E /* CustomViewBarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AFC18B728E58A840082075E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AFC189E28E58A810082075E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AFC18A528E58A810082075E;
+			remoteInfo = CustomViewBar;
+		};
+		2AFC18C128E58A840082075E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AFC189E28E58A810082075E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AFC18A528E58A810082075E;
+			remoteInfo = CustomViewBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AFC18A628E58A810082075E /* CustomViewBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomViewBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFC18A928E58A810082075E /* CustomViewBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBarApp.swift; sourceTree = "<group>"; };
+		2AFC18AB28E58A810082075E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AFC18AD28E58A830082075E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AFC18B028E58A830082075E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AFC18B628E58A840082075E /* CustomViewBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFC18BA28E58A840082075E /* CustomViewBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBarTests.swift; sourceTree = "<group>"; };
+		2AFC18C028E58A840082075E /* CustomViewBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFC18C428E58A840082075E /* CustomViewBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBarUITests.swift; sourceTree = "<group>"; };
+		2AFC18C628E58A840082075E /* CustomViewBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AFC18A328E58A810082075E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFC18B328E58A840082075E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFC18BD28E58A840082075E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AFC189D28E58A810082075E = {
+			isa = PBXGroup;
+			children = (
+				2AFC18A828E58A810082075E /* CustomViewBar */,
+				2AFC18B928E58A840082075E /* CustomViewBarTests */,
+				2AFC18C328E58A840082075E /* CustomViewBarUITests */,
+				2AFC18A728E58A810082075E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AFC18A728E58A810082075E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AFC18A628E58A810082075E /* CustomViewBar.app */,
+				2AFC18B628E58A840082075E /* CustomViewBarTests.xctest */,
+				2AFC18C028E58A840082075E /* CustomViewBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AFC18A828E58A810082075E /* CustomViewBar */ = {
+			isa = PBXGroup;
+			children = (
+				2AFC18A928E58A810082075E /* CustomViewBarApp.swift */,
+				2AFC18AB28E58A810082075E /* ContentView.swift */,
+				2AFC18AD28E58A830082075E /* Assets.xcassets */,
+				2AFC18AF28E58A830082075E /* Preview Content */,
+			);
+			path = CustomViewBar;
+			sourceTree = "<group>";
+		};
+		2AFC18AF28E58A830082075E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2AFC18B028E58A830082075E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AFC18B928E58A840082075E /* CustomViewBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AFC18BA28E58A840082075E /* CustomViewBarTests.swift */,
+			);
+			path = CustomViewBarTests;
+			sourceTree = "<group>";
+		};
+		2AFC18C328E58A840082075E /* CustomViewBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AFC18C428E58A840082075E /* CustomViewBarUITests.swift */,
+				2AFC18C628E58A840082075E /* CustomViewBarUITestsLaunchTests.swift */,
+			);
+			path = CustomViewBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AFC18A528E58A810082075E /* CustomViewBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFC18CA28E58A840082075E /* Build configuration list for PBXNativeTarget "CustomViewBar" */;
+			buildPhases = (
+				2AFC18A228E58A810082075E /* Sources */,
+				2AFC18A328E58A810082075E /* Frameworks */,
+				2AFC18A428E58A810082075E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomViewBar;
+			productName = CustomViewBar;
+			productReference = 2AFC18A628E58A810082075E /* CustomViewBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AFC18B528E58A840082075E /* CustomViewBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFC18CD28E58A840082075E /* Build configuration list for PBXNativeTarget "CustomViewBarTests" */;
+			buildPhases = (
+				2AFC18B228E58A840082075E /* Sources */,
+				2AFC18B328E58A840082075E /* Frameworks */,
+				2AFC18B428E58A840082075E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AFC18B828E58A840082075E /* PBXTargetDependency */,
+			);
+			name = CustomViewBarTests;
+			productName = CustomViewBarTests;
+			productReference = 2AFC18B628E58A840082075E /* CustomViewBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AFC18BF28E58A840082075E /* CustomViewBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFC18D028E58A840082075E /* Build configuration list for PBXNativeTarget "CustomViewBarUITests" */;
+			buildPhases = (
+				2AFC18BC28E58A840082075E /* Sources */,
+				2AFC18BD28E58A840082075E /* Frameworks */,
+				2AFC18BE28E58A840082075E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AFC18C228E58A840082075E /* PBXTargetDependency */,
+			);
+			name = CustomViewBarUITests;
+			productName = CustomViewBarUITests;
+			productReference = 2AFC18C028E58A840082075E /* CustomViewBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AFC189E28E58A810082075E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2AFC18A528E58A810082075E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2AFC18B528E58A840082075E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2AFC18A528E58A810082075E;
+					};
+					2AFC18BF28E58A840082075E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2AFC18A528E58A810082075E;
+					};
+				};
+			};
+			buildConfigurationList = 2AFC18A128E58A810082075E /* Build configuration list for PBXProject "CustomViewBar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AFC189D28E58A810082075E;
+			productRefGroup = 2AFC18A728E58A810082075E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AFC18A528E58A810082075E /* CustomViewBar */,
+				2AFC18B528E58A840082075E /* CustomViewBarTests */,
+				2AFC18BF28E58A840082075E /* CustomViewBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AFC18A428E58A810082075E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFC18B128E58A830082075E /* Preview Assets.xcassets in Resources */,
+				2AFC18AE28E58A830082075E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFC18B428E58A840082075E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFC18BE28E58A840082075E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AFC18A228E58A810082075E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFC18AC28E58A810082075E /* ContentView.swift in Sources */,
+				2AFC18AA28E58A810082075E /* CustomViewBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFC18B228E58A840082075E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFC18BB28E58A840082075E /* CustomViewBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFC18BC28E58A840082075E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFC18C728E58A840082075E /* CustomViewBarUITestsLaunchTests.swift in Sources */,
+				2AFC18C528E58A840082075E /* CustomViewBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AFC18B828E58A840082075E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AFC18A528E58A810082075E /* CustomViewBar */;
+			targetProxy = 2AFC18B728E58A840082075E /* PBXContainerItemProxy */;
+		};
+		2AFC18C228E58A840082075E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AFC18A528E58A810082075E /* CustomViewBar */;
+			targetProxy = 2AFC18C128E58A840082075E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2AFC18C828E58A840082075E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AFC18C928E58A840082075E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AFC18CB28E58A840082075E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomViewBar/Preview Content\"";
+				DEVELOPMENT_TEAM = 9JRM3SAZ2F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hazemsmawy.CustomViewBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AFC18CC28E58A840082075E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomViewBar/Preview Content\"";
+				DEVELOPMENT_TEAM = 9JRM3SAZ2F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hazemsmawy.CustomViewBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AFC18CE28E58A840082075E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JRM3SAZ2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hazemsmawy.CustomViewBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomViewBar.app/CustomViewBar";
+			};
+			name = Debug;
+		};
+		2AFC18CF28E58A840082075E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JRM3SAZ2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hazemsmawy.CustomViewBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomViewBar.app/CustomViewBar";
+			};
+			name = Release;
+		};
+		2AFC18D128E58A840082075E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JRM3SAZ2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hazemsmawy.CustomViewBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomViewBar;
+			};
+			name = Debug;
+		};
+		2AFC18D228E58A840082075E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9JRM3SAZ2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hazemsmawy.CustomViewBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomViewBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AFC18A128E58A810082075E /* Build configuration list for PBXProject "CustomViewBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFC18C828E58A840082075E /* Debug */,
+				2AFC18C928E58A840082075E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFC18CA28E58A840082075E /* Build configuration list for PBXNativeTarget "CustomViewBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFC18CB28E58A840082075E /* Debug */,
+				2AFC18CC28E58A840082075E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFC18CD28E58A840082075E /* Build configuration list for PBXNativeTarget "CustomViewBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFC18CE28E58A840082075E /* Debug */,
+				2AFC18CF28E58A840082075E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFC18D028E58A840082075E /* Build configuration list for PBXNativeTarget "CustomViewBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFC18D128E58A840082075E /* Debug */,
+				2AFC18D228E58A840082075E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AFC189E28E58A810082075E /* Project object */;
+}
